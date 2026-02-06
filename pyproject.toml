@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "u1732c-driver"
+version = "0.1.0"
+authors = [
+  { name="B" },
+]
+description = "A Python driver for the Agilent/Keysight U1732C LCR Meter"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pyserial>=3.5",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
