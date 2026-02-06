@@ -2,6 +2,8 @@
 
 A professional-grade Python interface for the U1732C Handheld LCR Meter. This project includes a core Python driver (compliant with `pyproject.toml`) and a modern dark-themed GUI for benchtop data acquisition.
 
+![](screenshot_lcr_meter_utility.png)
+
 ## 🛠 Features
 
 - **Complete SCPI Support**: Full control over Modes, Functions, Ranges, and Frequencies.
